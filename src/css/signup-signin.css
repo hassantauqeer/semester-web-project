@@ -1,0 +1,30 @@
+.custom-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+  .custom-cont .card-header {
+    font-weight: bold;
+    text-align: center; }
+  .custom-cont p.already {
+    margin: 10px 0; }
+
+.signin {
+  width: 40%;
+  min-width: 400px; }
+  .signin .custom-row {
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between; }
+
+@media only screen and (max-width: 1100px) {
+  .custom-row {
+    flex-direction: column; }
+    .custom-row p {
+      margin: 0px; } }
+@media only screen and (max-width: 480px) {
+  .signin {
+    min-width: 300px; } }
+
+/*# sourceMappingURL=signup-signin.css.map */
