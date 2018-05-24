@@ -1,0 +1,71 @@
+body.search-courses .container {
+  width: 70%;
+  margin: 0px auto; }
+  body.search-courses .container .card {
+    margin: 10px auto; }
+    body.search-courses .container .card .custom-card {
+      display: flex;
+      padding: 10px;
+      justify-content: space-between; }
+      body.search-courses .container .card .custom-card .banner img {
+        width: 300px;
+        height: 185px; }
+      body.search-courses .container .card .custom-card .description {
+        padding-left: 20px; }
+        body.search-courses .container .card .custom-card .description .desc {
+          color: #505763;
+          font-size: 12px; }
+      body.search-courses .container .card .custom-card .price {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end; }
+        body.search-courses .container .card .custom-card .price .rating {
+          display: flex; }
+          body.search-courses .container .card .custom-card .price .rating .em {
+            height: 1em;
+            width: 1em; }
+        body.search-courses .container .card .custom-card .price p {
+          margin: 5px 0;
+          font-size: 20px; }
+        body.search-courses .container .card .custom-card .price .rating-count {
+          color: #505763;
+          font-size: 12px; }
+
+@media only screen and (max-width: 1044px) {
+  body.search-courses .container {
+    width: 70%;
+    margin: 0px auto; }
+    body.search-courses .container .card {
+      margin: 10px auto; }
+      body.search-courses .container .card .custom-card {
+        display: flex;
+        padding: 10px;
+        justify-content: space-between; }
+        body.search-courses .container .card .custom-card .banner img {
+          width: 300px;
+          height: 185px; }
+        body.search-courses .container .card .custom-card .description {
+          padding-left: 20px; }
+          body.search-courses .container .card .custom-card .description .desc {
+            color: #505763;
+            font-size: 12px; }
+        body.search-courses .container .card .custom-card .price {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end; }
+          body.search-courses .container .card .custom-card .price .rating {
+            display: flex; }
+            body.search-courses .container .card .custom-card .price .rating .em {
+              height: 1em;
+              width: 1em; }
+          body.search-courses .container .card .custom-card .price p {
+            margin: 5px 0;
+            font-size: 20px; }
+          body.search-courses .container .card .custom-card .price .rating-count {
+            color: #505763;
+            font-size: 12px; } }
+@media only screen and (max-width: 600px) {
+  .container .banner-area {
+    display: none; } }
+
+/*# sourceMappingURL=search-courses.css.map */

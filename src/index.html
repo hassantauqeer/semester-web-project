@@ -17,9 +17,15 @@
         <link rel="stylesheet" href="css/bootstrap/bootstrap-grid.min.css" />
         <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
         <link rel="stylesheet" href="fonts/fonts-all.css" />
+        <!--<link rel="stylesheet" href="css/animate.min.css" />-->
+        <link rel="stylesheet" href="css/owl-crouser/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl-crouser/assets/owl.theme.default.min.css">
+        <link rel="stylesheet" href="https://daneden.github.io/animate.css/animate.min.css">
+
 
         <!--    CSS Custom    -->
         <link rel="stylesheet" href="css/custom.css" />
+        <link rel="stylesheet" href="css/header-footer.css" />
 
     </head>
     <body>
@@ -38,7 +44,7 @@
                         <a href="#">
                             <img src="img/udemy.png">
                         </a>
-                        <a class="categories" href="#">
+                        <a class="customNextBtn categories" href="#">
                             Categories
                         </a>
                     </div>
@@ -53,10 +59,12 @@
                             My Courses
                         </a>
                     </div>
-                    <div class="mobile-menu">
-                        <hr />
-                        <hr />
-                        <hr />
+                    <div id="mobile-menu-btn" class="mobile-menu">
+                        <div id="nav-icon4">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
                     <!--<div class="col-2 flex-align-center">-->
                         <!--<a href="#">-->
@@ -71,7 +79,16 @@
                     </div>
                 </div>
             </div>
-            <div class="mobile-overlay"></div>
+            <div class="mobile-overlay">
+                <ul>
+                    <li><a>Notifications</a></li>
+                    <li><a>My Courses</a></li>
+                    <li><a>Instructor</a></li>
+                    <li><a>Wishlist</a></li>
+                    <li><a>Cart</a></li>
+                    <li><a>My Account</a></li>
+                </ul>
+            </div>
         </header>
 
         <div class="container">
@@ -83,48 +100,63 @@
                     Best Coding Lectures and Paractices you can get here.
                 </p>
             </div>
+            <div class="owl-carousel owl-theme owl-loaded courses-area layout-1 after-before-btns">
+                <div class="before-btn">&#8249;</div>
+                <div class="owl-stage-outer course-layout">
+                    <h3> Development Course</h3>
 
-            <div class="courses-area">
-                <div class="course-layout">
-                    <h3> Development Course</h3>
                     <hr class="hr-1" />
-                    <div class="row justify-content-between">
-                        <div class=" box col-2 col-lg-2 col-md-3 col-sm-5 col-12">
+                    <div class=" owl-stage">
+                        <div class="owl-item box">
                             <img src="img/1544802_4d4b.jpg"/>
                             <h5 class="heading">Heading-  Ittle</h5>
                             <p class="author">Author NAme</p>
                             <p > Rating</p>
                             <h5 class="price">$11.99</h5>
                         </div>
-                        <div class=" box col-2 col-lg-2 col-md-3 col-sm-5 col-12">
+                        <div class="owl-item box">
                             <img src="img/1544802_4d4b.jpg"/>
                             <h5 class="heading">Heading-  Ittle</h5>
                             <p class="author">Author NAme</p>
                             <p > Rating</p>
                             <h5 class="price">$11.99</h5>
                         </div>
-                        <div class=" box col-2 col-lg-2 col-md-3 col-sm-5 col-12">
+                        <div class="owl-item box">
                             <img src="img/1544802_4d4b.jpg"/>
                             <h5 class="heading">Heading-  Ittle</h5>
                             <p class="author">Author NAme</p>
                             <p > Rating</p>
                             <h5 class="price">$11.99</h5>
                         </div>
-                        <div class=" box col-2 col-lg-2 col-md-3 col-sm-5 col-12">
+                        <div class="owl-item box">
                             <img src="img/1544802_4d4b.jpg"/>
                             <h5 class="heading">Heading-  Ittle</h5>
                             <p class="author">Author NAme</p>
                             <p > Rating</p>
                             <h5 class="price">$11.99</h5>
                         </div>
-                        <div class=" box col-2 col-lg-2 col-md-3 col-sm-5 col-12">
+                        <div class="owl-item box">
                             <img src="img/1544802_4d4b.jpg"/>
                             <h5 class="heading">Heading-  Ittle</h5>
                             <p class="author">Author NAme</p>
                             <p > Rating</p>
                             <h5 class="price">$11.99</h5>
                         </div>
-                        <div class=" box col-2 col-lg-2 col-md-3 col-sm-5 col-12">
+                        <div class="owl-item box">
+                            <img src="img/1544802_4d4b.jpg"/>
+                            <h5 class="heading">Heading-  Ittle</h5>
+                            <p class="author">Author NAme</p>
+                            <p > Rating</p>
+                            <h5 class="price">$11.99</h5>
+                        </div>
+                        <div class="owl-item box">
+                            <img src="img/1544802_4d4b.jpg"/>
+                            <h5 class="heading">Heading-  Ittle</h5>
+                            <p class="author">Author NAme</p>
+                            <p > Rating</p>
+                            <h5 class="price">$11.99</h5>
+                        </div>
+                        <div class="owl-item box">
                             <img src="img/1544802_4d4b.jpg"/>
                             <h5 class="heading">Heading-  Ittle</h5>
                             <p class="author">Author NAme</p>
@@ -133,105 +165,142 @@
                         </div>
                     </div>
                 </div>
-                <div class="course-layout">
-                    <h3> Development Course</h3>
-                    <hr class="hr-1" />
-                    <div class="row justify-content-between">
-                        <div class=" box col-2 col-lg-2 col-md-3 col-sm-5 col-12">
-                            <img src="img/1544802_4d4b.jpg"/>
-                            <h5 class="heading">Heading-  Ittle</h5>
-                            <p class="author">Author NAme</p>
-                            <p > Rating</p>
-                            <h5 class="price">$11.99</h5>
-                        </div>
-                        <div class=" box col-2 col-lg-2 col-md-3 col-sm-5 col-12">
-                            <img src="img/1544802_4d4b.jpg"/>
-                            <h5 class="heading">Heading-  Ittle</h5>
-                            <p class="author">Author NAme</p>
-                            <p > Rating</p>
-                            <h5 class="price">$11.99</h5>
-                        </div>
-                        <div class=" box col-2 col-lg-2 col-md-3 col-sm-5 col-12">
-                            <img src="img/1544802_4d4b.jpg"/>
-                            <h5 class="heading">Heading-  Ittle</h5>
-                            <p class="author">Author NAme</p>
-                            <p > Rating</p>
-                            <h5 class="price">$11.99</h5>
-                        </div>
-                        <div class=" box col-2 col-lg-2 col-md-3 col-sm-5 col-12">
-                            <img src="img/1544802_4d4b.jpg"/>
-                            <h5 class="heading">Heading-  Ittle</h5>
-                            <p class="author">Author NAme</p>
-                            <p > Rating</p>
-                            <h5 class="price">$11.99</h5>
-                        </div>
-                        <div class=" box col-2 col-lg-2 col-md-3 col-sm-5 col-12">
-                            <img src="img/1544802_4d4b.jpg"/>
-                            <h5 class="heading">Heading-  Ittle</h5>
-                            <p class="author">Author NAme</p>
-                            <p > Rating</p>
-                            <h5 class="price">$11.99</h5>
-                        </div>
-                        <div class=" box col-2 col-lg-2 col-md-3 col-sm-5 col-12">
-                            <img src="img/1544802_4d4b.jpg"/>
-                            <h5 class="heading">Heading-  Ittle</h5>
-                            <p class="author">Author NAme</p>
-                            <p > Rating</p>
-                            <h5 class="price">$11.99</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="course-layout">
-                    <h3> Development Course</h3>
-                    <hr class="hr-1" />
-                    <div class="row justify-content-between">
-                        <div class=" box col-2 col-lg-2 col-md-3 col-sm-5 col-12">
-                            <img src="img/1544802_4d4b.jpg"/>
-                            <h5 class="heading">Heading-  Ittle</h5>
-                            <p class="author">Author NAme</p>
-                            <p > Rating</p>
-                            <h5 class="price">$11.99</h5>
-                        </div>
-                        <div class=" box col-2 col-lg-2 col-md-3 col-sm-5 col-12">
-                            <img src="img/1544802_4d4b.jpg"/>
-                            <h5 class="heading">Heading-  Ittle</h5>
-                            <p class="author">Author NAme</p>
-                            <p > Rating</p>
-                            <h5 class="price">$11.99</h5>
-                        </div>
-                        <div class=" box col-2 col-lg-2 col-md-3 col-sm-5 col-12">
-                            <img src="img/1544802_4d4b.jpg"/>
-                            <h5 class="heading">Heading-  Ittle</h5>
-                            <p class="author">Author NAme</p>
-                            <p > Rating</p>
-                            <h5 class="price">$11.99</h5>
-                        </div>
-                        <div class=" box col-2 col-lg-2 col-md-3 col-sm-5 col-12">
-                            <img src="img/1544802_4d4b.jpg"/>
-                            <h5 class="heading">Heading-  Ittle</h5>
-                            <p class="author">Author NAme</p>
-                            <p > Rating</p>
-                            <h5 class="price">$11.99</h5>
-                        </div>
-                        <div class=" box col-2 col-lg-2 col-md-3 col-sm-5 col-12">
-                            <img src="img/1544802_4d4b.jpg"/>
-                            <h5 class="heading">Heading-  Ittle</h5>
-                            <p class="author">Author NAme</p>
-                            <p > Rating</p>
-                            <h5 class="price">$11.99</h5>
-                        </div>
-                        <div class=" box col-2 col-lg-2 col-md-3 col-sm-5 col-12">
-                            <img src="img/1544802_4d4b.jpg"/>
-                            <h5 class="heading">Heading-  Ittle</h5>
-                            <p class="author">Author NAme</p>
-                            <p > Rating</p>
-                            <h5 class="price">$11.99</h5>
-                        </div>
-                    </div>
-                </div>
+                <div class="after-btn">&#8250;</div>
             </div>
+            <div class="owl-carousel owl-theme owl-loaded courses-area layout-2 after-before-btns">
+                    <div class="before-btn">&#8249;</div>
+                    <div class="owl-stage-outer course-layout">
+                        <h3> Development Course</h3>
 
+                        <hr class="hr-1" />
+                        <div class=" owl-stage">
+                            <div class="owl-item box">
+                                <img src="img/1544802_4d4b.jpg"/>
+                                <h5 class="heading">Heading-  Ittle</h5>
+                                <p class="author">Author NAme</p>
+                                <p > Rating</p>
+                                <h5 class="price">$11.99</h5>
+                            </div>
+                            <div class="owl-item box">
+                                <img src="img/1544802_4d4b.jpg"/>
+                                <h5 class="heading">Heading-  Ittle</h5>
+                                <p class="author">Author NAme</p>
+                                <p > Rating</p>
+                                <h5 class="price">$11.99</h5>
+                            </div>
+                            <div class="owl-item box">
+                                <img src="img/1544802_4d4b.jpg"/>
+                                <h5 class="heading">Heading-  Ittle</h5>
+                                <p class="author">Author NAme</p>
+                                <p > Rating</p>
+                                <h5 class="price">$11.99</h5>
+                            </div>
+                            <div class="owl-item box">
+                                <img src="img/1544802_4d4b.jpg"/>
+                                <h5 class="heading">Heading-  Ittle</h5>
+                                <p class="author">Author NAme</p>
+                                <p > Rating</p>
+                                <h5 class="price">$11.99</h5>
+                            </div>
+                            <div class="owl-item box">
+                                <img src="img/1544802_4d4b.jpg"/>
+                                <h5 class="heading">Heading-  Ittle</h5>
+                                <p class="author">Author NAme</p>
+                                <p > Rating</p>
+                                <h5 class="price">$11.99</h5>
+                            </div>
+                            <div class="owl-item box">
+                                <img src="img/1544802_4d4b.jpg"/>
+                                <h5 class="heading">Heading-  Ittle</h5>
+                                <p class="author">Author NAme</p>
+                                <p > Rating</p>
+                                <h5 class="price">$11.99</h5>
+                            </div>
+                            <div class="owl-item box">
+                                <img src="img/1544802_4d4b.jpg"/>
+                                <h5 class="heading">Heading-  Ittle</h5>
+                                <p class="author">Author NAme</p>
+                                <p > Rating</p>
+                                <h5 class="price">$11.99</h5>
+                            </div>
+                            <div class="owl-item box">
+                                <img src="img/1544802_4d4b.jpg"/>
+                                <h5 class="heading">Heading-  Ittle</h5>
+                                <p class="author">Author NAme</p>
+                                <p > Rating</p>
+                                <h5 class="price">$11.99</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="after-btn">&#8250;</div>
+            </div>
+            <div class="owl-carousel owl-theme owl-loaded courses-area layout-3 after-before-btns">
+                    <div class="before-btn">&#8249;</div>
+                    <div class="owl-stage-outer course-layout">
+                        <h3> Development Course</h3>
 
+                        <hr class="hr-1" />
+                        <div class=" owl-stage">
+                            <div class="owl-item box">
+                                <img src="img/1544802_4d4b.jpg"/>
+                                <h5 class="heading">Heading-  Ittle</h5>
+                                <p class="author">Author NAme</p>
+                                <p > Rating</p>
+                                <h5 class="price">$11.99</h5>
+                            </div>
+                            <div class="owl-item box">
+                                <img src="img/1544802_4d4b.jpg"/>
+                                <h5 class="heading">Heading-  Ittle</h5>
+                                <p class="author">Author NAme</p>
+                                <p > Rating</p>
+                                <h5 class="price">$11.99</h5>
+                            </div>
+                            <div class="owl-item box">
+                                <img src="img/1544802_4d4b.jpg"/>
+                                <h5 class="heading">Heading-  Ittle</h5>
+                                <p class="author">Author NAme</p>
+                                <p > Rating</p>
+                                <h5 class="price">$11.99</h5>
+                            </div>
+                            <div class="owl-item box">
+                                <img src="img/1544802_4d4b.jpg"/>
+                                <h5 class="heading">Heading-  Ittle</h5>
+                                <p class="author">Author NAme</p>
+                                <p > Rating</p>
+                                <h5 class="price">$11.99</h5>
+                            </div>
+                            <div class="owl-item box">
+                                <img src="img/1544802_4d4b.jpg"/>
+                                <h5 class="heading">Heading-  Ittle</h5>
+                                <p class="author">Author NAme</p>
+                                <p > Rating</p>
+                                <h5 class="price">$11.99</h5>
+                            </div>
+                            <div class="owl-item box">
+                                <img src="img/1544802_4d4b.jpg"/>
+                                <h5 class="heading">Heading-  Ittle</h5>
+                                <p class="author">Author NAme</p>
+                                <p > Rating</p>
+                                <h5 class="price">$11.99</h5>
+                            </div>
+                            <div class="owl-item box">
+                                <img src="img/1544802_4d4b.jpg"/>
+                                <h5 class="heading">Heading-  Ittle</h5>
+                                <p class="author">Author NAme</p>
+                                <p > Rating</p>
+                                <h5 class="price">$11.99</h5>
+                            </div>
+                            <div class="owl-item box">
+                                <img src="img/1544802_4d4b.jpg"/>
+                                <h5 class="heading">Heading-  Ittle</h5>
+                                <p class="author">Author NAme</p>
+                                <p > Rating</p>
+                                <h5 class="price">$11.99</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="after-btn">&#8250;</div>
+                </div>
         </div>
 
 
@@ -240,54 +309,96 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-        <footer>
-            <hr />
-            <div class="container flex-align-center">
-                <div class="col-4">
-                    <ul>
-                        <li class="head">Home</li>
-                        <li >Home</li>
-                        <li >Home</li>
-                        <li >Home</li>
-                    </ul>
+            <footer>
+                <hr />
+                <div class="container flex-align-center">
+                    <div class="col-4">
+                        <ul>
+                            <li class="head">Home</li>
+                            <li >Home</li>
+                            <li >Home</li>
+                            <li >Home</li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <ul>
+                            <li class="head">Home</li>
+                            <li >Home</li>
+                            <li >Home</li>
+                            <li >Home</li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <ul>
+                            <li class="head">Home</li>
+                            <li >Home</li>
+                            <li >Home</li>
+                            <li >Home</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-4">
-                    <ul>
-                        <li class="head">Home</li>
-                        <li >Home</li>
-                        <li >Home</li>
-                        <li >Home</li>
-                    </ul>
-                </div>
-                <div class="col-4">
-                    <ul>
-                        <li class="head">Home</li>
-                        <li >Home</li>
-                        <li >Home</li>
-                        <li >Home</li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
+            </footer>
 
         <!--    JS Libraries    -->
         <script defer src="fonts/fonts-all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
         <script src="js/vendor/jquery-3.3.1.min.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/owl.carousel.min.js"></script>
 
         <!--    Custom JS    -->
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script>
 
+            $(document).ready(function(){
+                var owl = $('.owl-carousel.layout-1');
+                var owl2 = $('.owl-carousel.layout-2');
+                var owl3 = $('.owl-carousel.layout-3');
+
+                owl.owlCarousel({
+                    margin:10,
+                    loop:true,
+                    autoWidth:true,
+                    dots:false,
+                    items:4
+                });
+                owl2.owlCarousel({
+                    dots:false,
+                    margin:10,
+                    loop:true,
+                    autoWidth:true,
+                    items:4
+                });
+                owl3.owlCarousel({
+                    margin:10,
+                    loop:true,
+                    dots:false,
+                    autoWidth:true,
+                    items:4
+                });
+
+                $('.layout-1.after-before-btns .before-btn').click(function() {
+                    owl.trigger('prev.owl.carousel');
+                })
+
+                $('.layout-1.after-before-btns .after-btn').click(function() {
+                    owl.trigger('next.owl.carousel');
+                })
+                $('.layout-2.after-before-btns .before-btn').click(function() {
+                    owl2.trigger('prev.owl.carousel');
+                })
+
+                $('.layout-2.after-before-btns .after-btn').click(function() {
+                    owl2.trigger('next.owl.carousel');
+                })
+                $('.layout-3.after-before-btns .before-btn').click(function() {
+                    owl3.trigger('prev.owl.carousel');
+                })
+
+                $('.layout-3.after-before-btns .after-btn').click(function() {
+                    owl3.trigger('next.owl.carousel');
+                })
+            });
+        </script>
     </body>
 </html>

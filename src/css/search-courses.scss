@@ -1,0 +1,103 @@
+body.search-courses {
+  .container {
+    width: 70%;
+    margin: 0px auto;
+    .card {
+      margin: 10px auto;
+      .custom-card {
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+        .banner{
+          img {
+            width: 300px;
+            height: 185px;
+          }
+        }
+        .description {
+          padding-left: 20px;
+          .desc {
+            color: #505763;
+            font-size: 12px;
+          }
+        }
+        .price {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          .rating{
+            display: flex;
+            .em {
+              height: 1em;
+              width: 1em;
+            }
+          }
+          p {
+            margin: 5px 0;
+            font-size: 20px;
+          }
+          .rating-count {
+            color: #505763;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 1044px) {
+  body.search-courses {
+    .container {
+      width: 70%;
+      margin: 0px auto;
+      .card {
+        margin: 10px auto;
+        .custom-card {
+          display: flex;
+          padding: 10px;
+          justify-content: space-between;
+          .banner{
+            img {
+              width: 300px;
+              height: 185px;
+            }
+          }
+          .description {
+            padding-left: 20px;
+            .desc {
+              color: #505763;
+              font-size: 12px;
+            }
+          }
+          .price {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            .rating{
+              display: flex;
+              .em {
+                height: 1em;
+                width: 1em;
+              }
+            }
+            p {
+              margin: 5px 0;
+              font-size: 20px;
+            }
+            .rating-count {
+              color: #505763;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container .banner-area {
+    display: none;
+  }
+}
